@@ -90,7 +90,7 @@ a{
 }
 .conteudo{
     /*espaçamento*/
-    width: 80vh;
+    width: 100vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,12 @@ a{
 }
 .dadosserviço{
     /*espaçamento*/
+    display: flex;
     margin-bottom: 5vh;
+}
+#cardapios{
+    margin-right: 2.5vh;
+
 }
 
 .dadosconvidados{
@@ -186,7 +191,7 @@ a{
 
 .resultado{
     /*espaçamento*/
-    width: 80vh;
+    width: 100vh;
     height: auto;
     margin-top: 15vh;
     margin-left: 5vh;
@@ -261,7 +266,6 @@ a{
     /*TABELA INICIADA*/
     .titulo{
         /*espaçamento*/
-        padding: -5vh;
         font-size: 16pt;
         
     }
@@ -287,6 +291,7 @@ a{
         display: flex;
         flex-wrap: wrap;
     }
+    
     .topico{
         /*espaçamento*/
         width: 30vh;
@@ -418,6 +423,7 @@ a{
         width: 100vh;
         height: auto;
     }
+   
     .resultado{
         /*espaçamento*/
         margin-right: 2.5vh;

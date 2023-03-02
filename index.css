@@ -266,6 +266,7 @@ a{
     /*TABELA INICIADA*/
     .titulo{
         /*espaçamento*/
+	margin-top: 10vh;
         font-size: 16pt;
         
     }
@@ -313,7 +314,8 @@ a{
         /*espaçamento*/
         width: 50vh;
         height: 80vh;
-        font-size: 8pt
+	margin-left: -10vh;
+        font-size: 10pt
     }
 
     /*TABELA FINALIZADA*/

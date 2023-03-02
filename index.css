@@ -87,6 +87,7 @@ a{
     /*espaçamento*/
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .conteudo{
     /*espaçamento*/
@@ -314,7 +315,7 @@ a{
         /*espaçamento*/
         width: 50vh;
         height: 80vh;
-	margin-left: -10vh;
+	margin-left: 0vh;
         font-size: 10pt
     }
 

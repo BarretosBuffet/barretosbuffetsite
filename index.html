@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Orçamentos - Images/Favicon - Barreto's Buffet.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script src="index.js"></script>
+
+    <title>Orçamento - Barreto's Buffet</title>
+</head>
+<body>
+    
+    <header class="header"> 
+        <img src="/Orçamentos - Images/Logo Branca - Barreto's Buffet.png" class="logo-header" alt="logo-header">
+
+        <span class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+
+        
+
+        <ul class="list-areas" id="itens">
+
+            <a href="/Orçamentos/orçamentos.html"><li class="areas" id="orçamento">Orçamento Principal</li></a>
+            <a href="/Multipacote/multipacote.html"><li class="areas" id="orçamento-multipacote">Multipacote</li></a>
+            <a href="#"><li class="areas" id="orçamento-multicardapio">Multicardápio</li></a>
+            <a href="#"><li class="areas" id="orçamento-mdo">Mão-de-Obra</li></a>
+            <a href="#"><li class="areas" id="orçamento-aluguel">Aluguel</li></a>
+        </ul>
+
+        <ul class="list-areas">
+
+            <a href="/Orçamentos/orçamentos.html"><li class="areas" id="orçamento">Orçamento Principal</li></a>
+            <a href="/Multipacote/multipacote.html"><li class="areas" id="orçamento-multipacote">Multipacote</li></a>
+            <a href="#"><li class="areas" id="orçamento-multicardapio">Multicardápio</li></a>
+            <a href="#"><li class="areas" id="orçamento-mdo">Mão-de-Obra</li></a>
+            <a href="#"><li class="areas" id="orçamento-aluguel">Aluguel</li></a>
+        </ul>
+
+
+    </header>
+
+    <h1 class="titulo">Orçamento Barreto's Buffet</h1>
+
+    <div class="tabela">
+        <div class="conteudo">
+            <img src="/Orçamentos - Images/Logo Vermelha - Barreto's Buffet.png" class="logo-conteudo" alt="">
+
+            <div class="dadosfesta">
+
+                <p class="tit">Dados da Festa</p>
+
+                <input type="text" class="topico" id="local" placeholder="Local">
+
+                <div class="topico-tit">
+                    <p class="subtit">Data da Festa</p>
+                    <input type="date" class="topico" id="data">
+                </div>
+                
+                <div class="topico-tit">
+                    <p class="subtit">Início da Festa</p>
+                    <input type="time" class="topico" id="horainicio">
+                </div> 
+
+                <div class="topico-tit">
+                    <p class="subtit">Fim da Festa</p>
+                    <input type="time" class="topico" id="horafim">
+                </div>
+
+            </div>
+            
+            <div class="dadosserviço">
+
+                <p class="tit">Dados do Serviço</p>
+
+                <select id="cardapios" class="topico">
+                    <option value="Churras Master">Churras Master</option>
+                    <option value="Churras Gold">Churras Gold</option>
+                    <option value="Churras Silver">Churras Silver</option>
+                    <option value="Almoço">Almoço/Jantar</option>
+                    <option value="Feijoada">Feijoada</option>
+                    <option value="Festa Botequim">Festa Botequim</option>
+                </select> 
+
+
+                <select id="pacotes" class="topico">
+                    <option value="Basic">Basic</option>
+                    <option value="Premium I">Premium I</option>
+                    <option value="Premium II">Premium II</option>
+                    <option value="VIP">VIP</option>
+                </select><br>
+
+            </div>
+
+            <div class="dadosconvidados">
+
+                <p class="tit">Dados dos Convidados</p>
+
+                <input type="number" class="topico" id="convint" placeholder="Nº de Convidados (Integral)">
+                <input type="number" class="topico" id="convmeia" placeholder="Nº de Convidados (Meia)"> <br>
+                
+                <input type="button" class="topico1" value="Realizar Orçamento!" onclick="execucao()">
+
+            </div>
+        </div>
+
+        
+        <div class="resultado">
+            <img src="/Orçamentos - Images/Logo Branca - Barreto's Buffet.png" class="logo-res" alt="logo-res">
+
+            <div id="res"></div>
+            
+            
+        </div>
+    </div>    
+
+</body>
+</html>

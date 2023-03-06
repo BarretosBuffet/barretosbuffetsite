@@ -15,7 +15,7 @@
 <body>
     
     <header class="header"> 
-        <img src="Logo Branca - Barreto's Buffet.png" class="logo-header" alt="logo-header">
+        <img src="/Orçamentos - Images/Logo Branca - Barreto's Buffet.png" class="logo-header" alt="logo-header">
 
         <span class="material-symbols-outlined" onclick="clickmenu()">menu</span>
 
@@ -46,12 +46,12 @@
 
     <div class="tabela">
         <div class="conteudo">
-            <img src="Logo Vermelha - Barreto's Buffet.png" class="logo-conteudo" alt="">
+            <img src="/Orçamentos - Images/Logo Vermelha - Barreto's Buffet.png" class="logo-conteudo" alt="">
 
             <div class="dadosfesta">
 
                 <p class="tit">Dados da Festa</p>
-
+                
                 <input type="text" class="topico" id="local" placeholder="Local">
 
                 <div class="topico-tit">
@@ -70,12 +70,13 @@
                 </div>
 
             </div>
-            
+
             <p class="tit">Dados do Serviço</p>
-            
+
             <div class="dadosserviço">
 
                 <select id="cardapios" class="topico">
+                    <option value="cardapios">Cardápios</option>
                     <option value="Churras Master">Churras Master</option>
                     <option value="Churras Gold">Churras Gold</option>
                     <option value="Churras Silver">Churras Silver</option>
@@ -86,11 +87,37 @@
 
 
                 <select id="pacotes" class="topico">
+                    <option value="pacotes">Pacotes</option>
                     <option value="Basic">Basic</option>
                     <option value="Premium I">Premium I</option>
                     <option value="Premium II">Premium II</option>
                     <option value="VIP">VIP</option>
-                </select><br>
+                </select>
+
+
+
+                <select id="cervejas" class="topico">
+                    <option value="cervejas">-</option>
+                    <option value="cervejatradicional">Brahma + Antarctica</option>
+                    <option value="brahmas">Brahma Duplo/Puro Malte</option>
+                    <option value="antarctica">Antarctica Original</option>
+                    <option value="imperio">Império</option>
+                    <option value="Amstel">Amstel</option>
+                    <option value="heineken">Heineken</option>
+                    <option value="corona">Corona</option>
+                    <option value="stella">Stella Artois</option>
+                    <option value="budweiser">Budweiser</option>
+                    <option value="bohemia">Bohemia</option>
+                </select>
+
+                <select id="open-bar" class="topico">
+                    <option value="barretosbar">-</option>
+                    <option value="open-barI">Open-Bar I</option>
+                    <option value="open-barII">Open-Bar II</option>
+                    <option value="open-barIII">Open-Bar III</option>
+                    <option value="open-barIV">Open-Bar IV</option>
+                    
+                </select>
 
             </div>
 
@@ -108,7 +135,7 @@
 
         
         <div class="resultado">
-            <img src="Logo Branca - Barreto's Buffet.png" class="logo-res" alt="logo-res">
+            <img src="/Orçamentos - Images/Logo Branca - Barreto's Buffet.png" class="logo-res" alt="logo-res">
 
             <div id="res"></div>
             

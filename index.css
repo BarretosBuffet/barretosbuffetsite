@@ -87,7 +87,6 @@ a{
     /*espaçamento*/
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .conteudo{
     /*espaçamento*/
@@ -158,8 +157,15 @@ a{
     /*espaçamento*/
     display: flex;
     margin-bottom: 5vh;
+    margin-left: 5vh;
+    margin-top: 2.5vh;
+    flex-wrap: wrap;
 }
 #cardapios{
+    margin-right: 2.5vh;
+
+}
+#cervejas{
     margin-right: 2.5vh;
 
 }
@@ -212,6 +218,11 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    text-align: center;
+    
+    padding: 5vh;
+    
 }
 .logo-res{
     /*espaçamento*/
@@ -226,12 +237,11 @@ a{
 
 
 
-@media (min-width: 0px ) and (max-width: 425px){
+@media (min-width: 320px ) and (max-width: 425px){
     .header{
         /*flexibilidade*/
         display: flex;
         justify-content: space-between;
-	heigth: 10vh;
     }
     .logo-header{
         /*espaçamento*/
@@ -240,7 +250,7 @@ a{
     .material-symbols-outlined{
         /*espaçamento*/
         position: fixed;
-        margin-left: 40vh;
+        margin-left: 60vh;
         /*flexibilidade*/
         display: block;
         /*estilização*/
@@ -268,7 +278,7 @@ a{
     /*TABELA INICIADA*/
     .titulo{
         /*espaçamento*/
-	margin-top: 30vh;
+        padding: -5vh;
         font-size: 16pt;
         
     }
@@ -294,7 +304,6 @@ a{
         display: flex;
         flex-wrap: wrap;
     }
-    
     .topico{
         /*espaçamento*/
         width: 30vh;
@@ -316,8 +325,7 @@ a{
         /*espaçamento*/
         width: 50vh;
         height: 80vh;
-	margin-left: 0vh;
-        font-size: 10pt
+        font-size: 8pt
     }
 
     /*TABELA FINALIZADA*/
@@ -427,7 +435,6 @@ a{
         width: 100vh;
         height: auto;
     }
-   
     .resultado{
         /*espaçamento*/
         margin-right: 2.5vh;

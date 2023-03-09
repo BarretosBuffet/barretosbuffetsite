@@ -21,7 +21,7 @@ function execucao(){
     //Restrição do Churras Master
 
     if(texto === 'Churras Master' && totconv<30){
-        var precoconv = 195
+        var precoconv = 140
     }
     if(texto === 'Churras Master' && totconv>=30 && totconv<=50){
         var precoconv = 120

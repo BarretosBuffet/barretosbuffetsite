@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Orçamentos - Images/Favicon - Barreto's Buffet.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="mdo.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script src="mdo.js"></script>
+
+    <title>Mão-de-Obra</title>
+</head>
+<body>
+    
+    <header class="header"> 
+        <img src="/Orçamentos - Images/Logo Branca - Barreto's Buffet.png" class="logo-header" alt="logo-header">
+
+        <span class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+
+        
+
+        
+
+        <ul class="list-areas">
+
+            <a href="/Orçamentos/index.html"><li class="areas" id="orçamento">Orçamento Principal</li></a>
+            <a href="/Multipacote/multipacote.html"><li class="areas" id="orçamento-multipacote">Multipacote</li></a>
+            <a href="/Mão-de-Obra/mdo.html"><li class="areas" id="orçamento-mdo">Mão-de-Obra</li></a>
+    
+        </ul>
+
+
+    </header>
+
+    <h1 class="titulo">Orçamento Mão-de-Obra</h1>
+
+    <div class="tabela">
+        <div class="conteudo">
+            <img src="/Orçamentos - Images/Logo Vermelha - Barreto's Buffet.png" class="logo-conteudo" alt="">
+
+            <p class="tit">Dados do Serviço</p>
+
+            <div class="dadosserviço">
+
+                <select id="profissionais" class="topico" >
+                    <option value="profissional">Tipo de Profissional</option>
+                    <option value="churrasqueiro">Churrasqueiro</option>
+                    <option value="chef">Chef de Cozinha</option>
+                    <option value="ajudante">Ajudante de Cozinha</option>
+                    <option value="garçom">Garçom</option>
+                    <option value="copeiro">Copeiro</option>
+                    <option value="bartender">Bartender</option>
+                </select> 
+
+                <input type="number" name="numerodeprofissionais" placeholder="Nº de profissionais" class="topico" id="numerodeprofissionais">
+
+                <select id="profissionais2" class="topico" >
+                    <option value="profissional2">Tipo de Profissional</option>
+                    <option value="churrasqueiro2">Churrasqueiro</option>
+                    <option value="chef2">Chef de Cozinha</option>
+                    <option value="ajudante2">Ajudante de Cozinha</option>
+                    <option value="garçom2">Garçom</option>
+                    <option value="copeiro2">Copeiro</option>
+                    <option value="bartender2">Bartender</option>
+                </select> 
+
+                <input type="number" name="numerodeprofissionais" placeholder="Nº de profissionais" class="topico" id="numerodeprofissionais2">
+
+                <select id="profissionais3" class="topico" >
+                    <option value="profissional3">Tipo de Profissional</option>
+                    <option value="churrasqueiro3">Churrasqueiro</option>
+                    <option value="chef3">Chef de Cozinha</option>
+                    <option value="ajudante3">Ajudante de Cozinha</option>
+                    <option value="garçom3">Garçom</option>
+                    <option value="copeiro3">Copeiro</option>
+                    <option value="bartender3">Bartender</option>
+                </select> 
+
+                <input type="number" name="numerodeprofissionais" placeholder="Nº de profissionais" class="topico" id="numerodeprofissionais3">
+
+            </div>
+
+            
+            <input type="button" class="topico1" value="Realizar Orçamento!" onclick="execucao()">
+           
+        </div>
+
+        
+        <div class="resultado">
+            <img src="/Orçamentos - Images/Logo Branca - Barreto's Buffet.png" class="logo-res" alt="logo-res">
+
+            <div id="res"></div>
+            
+            
+        </div>
+    </div>    
+
+</body>
+</html>

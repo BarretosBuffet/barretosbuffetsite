@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Favicon - Barreto's Buffet.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/Orçamentos - Images/Favicon - Barreto's Buffet.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="index.css">
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
     <script src="index.js"></script>
 
-    <title>Orçamento - Barreto's Buffet</title>
+    <title>Orçamento Principal</title>
 </head>
 <body>
     
@@ -21,13 +21,16 @@
 
         
 
-        <ul class="list-areas" id="itens">
+        
 
-            <a href="index.html"><li class="areas" id="orçamento">Orçamento Principal</li></a>
+        <ul class="list-areas">
+
+            <a href="orçamentos.html"><li class="areas" id="orçamento">Orçamento Principal</li></a>
             <a href="multipacote.html"><li class="areas" id="orçamento-multipacote">Multipacote</li></a>
             <a href="mdo.html"><li class="areas" id="orçamento-mdo">Mão-de-Obra</li></a>
             
         </ul>
+
 
     </header>
 
@@ -86,6 +89,7 @@
 
 
                 <select id="cervejas" class="topico">
+                    <option value="cervejas">Cervejas</option>
                     <option value="cervejas">-</option>
                     <option value="cervejatradicional">Brahma + Antarctica</option>
                     <option value="brahmas">Brahma Duplo/Puro Malte</option>
@@ -100,6 +104,7 @@
                 </select>
 
                 <select id="open-bar" class="topico">
+                    <option value="barretosbar">Open-Bar</option>
                     <option value="barretosbar">-</option>
                     <option value="open-barI">Open-Bar I</option>
                     <option value="open-barII">Open-Bar II</option>

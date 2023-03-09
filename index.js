@@ -31,7 +31,7 @@ function execucao(){
     //Restrição do Churras Master
 
     if(texto === 'Churras Master' && totconv<30){
-        var precoconv = 195
+        var precoconv = 140
     }
     if(texto === 'Churras Master' && totconv>=30 && totconv<=50){
         var precoconv = 120
@@ -57,7 +57,7 @@ function execucao(){
     //Restrição do Churras Gold
 
     if(texto === 'Churras Gold' && totconv<30){
-        var precoconv = 150
+        var precoconv = 120
     }
     if(texto === 'Churras Gold' && totconv>=30 && totconv<=50){
         var precoconv = 85
@@ -84,7 +84,7 @@ function execucao(){
     //Restrições do Churras Silver
 
     if(texto === 'Churras Silver' && totconv<30){
-        var precoconv = 142.5
+        var precoconv = 120
     }
     if(texto === 'Churras Silver' && totconv>=30 && totconv<=50){
         var precoconv = 80
@@ -111,7 +111,7 @@ function execucao(){
     //Restrições do Almoço/Jantar
 
     if(texto === 'Almoço/Jantar' && totconv<30){
-        var precoconv = 145.5
+        var precoconv = 120
     }
     if(texto === 'Almoço/Jantar' && totconv>=30 && totconv<=50){
         var precoconv = 82.5
@@ -139,7 +139,7 @@ function execucao(){
     //Restrições do Feijoada
 
     if(texto === 'Feijoada' && totconv<30){
-        var precoconv = 150
+        var precoconv = 120
     }
     if(texto === 'Feijoada' && totconv>=30 && totconv<=50){
         var precoconv = 82.5
@@ -165,7 +165,7 @@ function execucao(){
     //Restrições de Festa Botequim
 
     if(texto === 'Festa Botequim' && totconv<30){
-        var precoconv = 140
+        var precoconv = 120
     }
     if(texto === 'Festa Botequim' && totconv>=30 && totconv<=50){
         var precoconv = 80

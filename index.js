@@ -33,22 +33,22 @@ function execucao(){
     if(texto === 'Churras Master' && totconv<30){
         var precoconv = 140
     }
-    if(texto === 'Churras Master' && totconv>=30 && totconv<=50){
+    if(texto === 'Churras Master' && totconv>=30 && totconv<=49){
         var precoconv = 120
     }
-    if(texto === 'Churras Master' && totconv>=51 && totconv<=70){
+    if(texto === 'Churras Master' && totconv>=50 && totconv<=69){
         var precoconv = 115
     }
-    if(texto === 'Churras Master' && totconv>=71 && totconv<=90){
+    if(texto === 'Churras Master' && totconv>=70 && totconv<=89){
         var precoconv = 110
     }
-    if(texto === 'Churras Master' && totconv>=91 && totconv<=110){
+    if(texto === 'Churras Master' && totconv>=90 && totconv<=109){
         var precoconv = 105
     }
-    if(texto === 'Churras Master' && totconv>=111 && totconv<=130){
+    if(texto === 'Churras Master' && totconv>=110 && totconv<=129){
         var precoconv = 102.5
     }
-    if(texto === 'Churras Master' && totconv>=131 && totconv<=150){
+    if(texto === 'Churras Master' && totconv>=130 && totconv<=150){
         var precoconv = 100
     }
 
@@ -59,22 +59,22 @@ function execucao(){
     if(texto === 'Churras Gold' && totconv<30){
         var precoconv = 120
     }
-    if(texto === 'Churras Gold' && totconv>=30 && totconv<=50){
+    if(texto === 'Churras Gold' && totconv>=30 && totconv<=49){
         var precoconv = 85
     }
-    if(texto === 'Churras Gold' && totconv>=51 && totconv<=70){
+    if(texto === 'Churras Gold' && totconv>=50 && totconv<=69){
         var precoconv = 80
     }
-    if(texto === 'Churras Gold' && totconv>=71 && totconv<=90){
+    if(texto === 'Churras Gold' && totconv>=70 && totconv<=89){
         var precoconv = 75
     }
-    if(texto === 'Churras Gold' && totconv>=91 && totconv<=110){
+    if(texto === 'Churras Gold' && totconv>=90 && totconv<=109){
         var precoconv = 70
     }
-    if(texto === 'Churras Gold' && totconv>=111 && totconv<=130){
+    if(texto === 'Churras Gold' && totconv>=110 && totconv<=129){
         var precoconv = 67.5
     }
-    if(texto === 'Churras Gold' && totconv>=131 && totconv<=150){
+    if(texto === 'Churras Gold' && totconv>=130 && totconv<=150){
         var precoconv = 65
     }
 
@@ -86,22 +86,22 @@ function execucao(){
     if(texto === 'Churras Silver' && totconv<30){
         var precoconv = 120
     }
-    if(texto === 'Churras Silver' && totconv>=30 && totconv<=50){
+    if(texto === 'Churras Silver' && totconv>=30 && totconv<=49){
         var precoconv = 80
     }
-    if(texto === 'Churras Silver' && totconv>=51 && totconv<=70){
+    if(texto === 'Churras Silver' && totconv>=50 && totconv<=69){
         var precoconv = 75
     }
-    if(texto === 'Churras Silver' && totconv>=71 && totconv<=90){
+    if(texto === 'Churras Silver' && totconv>=70 && totconv<=89){
         var precoconv = 70
     }
-    if(texto === 'Churras Silver' && totconv>=91 && totconv<=110){
+    if(texto === 'Churras Silver' && totconv>=90 && totconv<=109){
         var precoconv = 65
     }
-    if(texto === 'Churras Silver' && totconv>=111 && totconv<=130){
+    if(texto === 'Churras Silver' && totconv>=110 && totconv<=129){
         var precoconv = 62.5
     }
-    if(texto === 'Churras Silver' && totconv>=131 && totconv<=150){
+    if(texto === 'Churras Silver' && totconv>=130 && totconv<=150){
         var precoconv = 60
     }
 
@@ -113,22 +113,22 @@ function execucao(){
     if(texto === 'Almoço/Jantar' && totconv<30){
         var precoconv = 120
     }
-    if(texto === 'Almoço/Jantar' && totconv>=30 && totconv<=50){
+    if(texto === 'Almoço/Jantar' && totconv>=30 && totconv<=49){
         var precoconv = 82.5
     }
-    if(texto === 'Almoço/Jantar' && totconv>=51 && totconv<=70){
+    if(texto === 'Almoço/Jantar' && totconv>=50 && totconv<=69){
         var precoconv = 77.5
     }
-    if(texto === 'Almoço/Jantar' && totconv>=71 && totconv<=90){
+    if(texto === 'Almoço/Jantar' && totconv>=70 && totconv<=89){
         var precoconv = 72.5
     }
-    if(texto === 'Almoço/Jantar' && totconv>=91 && totconv<=110){
+    if(texto === 'Almoço/Jantar' && totconv>=90 && totconv<=109){
         var precoconv = 67.5
     }
-    if(texto === 'Almoço/Jantar' && totconv>=111 && totconv<=130){
+    if(texto === 'Almoço/Jantar' && totconv>=110 && totconv<=129){
         var precoconv = 65
     }
-    if(texto === 'Almoço/Jantar' && totconv>=131 && totconv<=150){
+    if(texto === 'Almoço/Jantar' && totconv>=130 && totconv<=150){
         var precoconv = 62.5
     }
 
@@ -141,22 +141,22 @@ function execucao(){
     if(texto === 'Feijoada' && totconv<30){
         var precoconv = 120
     }
-    if(texto === 'Feijoada' && totconv>=30 && totconv<=50){
+    if(texto === 'Feijoada' && totconv>=30 && totconv<=49){
         var precoconv = 82.5
     }
-    if(texto === 'Feijoada' && totconv>=51 && totconv<=70){
+    if(texto === 'Feijoada' && totconv>=50 && totconv<=69){
         var precoconv = 77.5
     }
-    if(texto === 'Feijoada' && totconv>=71 && totconv<=90){
+    if(texto === 'Feijoada' && totconv>=70 && totconv<=89){
         var precoconv = 72.5
     }
-    if(texto === 'Feijoada' && totconv>=91 && totconv<=110){
+    if(texto === 'Feijoada' && totconv>=90 && totconv<=109){
         var precoconv = 67.5
     }
-    if(texto === 'Feijoada' && totconv>=111 && totconv<=130){
+    if(texto === 'Feijoada' && totconv>=110 && totconv<=129){
         var precoconv = 65
     }
-    if(texto === 'Feijoada' && totconv>=131 && totconv<=150){
+    if(texto === 'Feijoada' && totconv>=130 && totconv<=150){
         var precoconv = 62.5
     }
     
@@ -167,22 +167,22 @@ function execucao(){
     if(texto === 'Festa Botequim' && totconv<30){
         var precoconv = 120
     }
-    if(texto === 'Festa Botequim' && totconv>=30 && totconv<=50){
+    if(texto === 'Festa Botequim' && totconv>=30 && totconv<=49){
         var precoconv = 80
     }
-    if(texto === 'Festa Botequim' && totconv>=51 && totconv<=70){
+    if(texto === 'Festa Botequim' && totconv>=50 && totconv<=69){
         var precoconv = 75
     }
-    if(texto === 'Festa Botequim' && totconv>=71 && totconv<=90){
+    if(texto === 'Festa Botequim' && totconv>=70 && totconv<=89){
         var precoconv = 70
     }
-    if(texto === 'Festa Botequim' && totconv>=91 && totconv<=110){
+    if(texto === 'Festa Botequim' && totconv>=90 && totconv<=109){
         var precoconv = 65
     }
-    if(texto === 'Festa Botequim' && totconv>=111 && totconv<=130){
+    if(texto === 'Festa Botequim' && totconv>=110 && totconv<=129){
         var precoconv = 62.5
     }
-    if(texto === 'Festa Botequim' && totconv>=131 && totconv<=150){
+    if(texto === 'Festa Botequim' && totconv>=130 && totconv<=150){
         var precoconv = 60
     }
 

@@ -114,22 +114,22 @@ function execucao(){
         var precoconv = 120
     }
     if(texto === 'Almoço/Jantar' && totconv>=30 && totconv<=49){
-        var precoconv = 82.5
+        var precoconv = 85
     }
     if(texto === 'Almoço/Jantar' && totconv>=50 && totconv<=69){
-        var precoconv = 77.5
+        var precoconv = 80
     }
     if(texto === 'Almoço/Jantar' && totconv>=70 && totconv<=89){
-        var precoconv = 72.5
+        var precoconv = 75
     }
     if(texto === 'Almoço/Jantar' && totconv>=90 && totconv<=109){
-        var precoconv = 67.5
+        var precoconv = 72.5
     }
     if(texto === 'Almoço/Jantar' && totconv>=110 && totconv<=129){
-        var precoconv = 65
+        var precoconv = 70
     }
     if(texto === 'Almoço/Jantar' && totconv>=130 && totconv<=150){
-        var precoconv = 62.5
+        var precoconv = 67.5
     }
 
     //Fim da Restrição Almoço/Jantar

@@ -293,6 +293,8 @@ function execucao(){
     Pacote: ${text1} 📦<br>
     Cerveja : ${cerva} 🍺 <br>
     Open-Bar: ${openbar} 🍹 <br><br>
+    Nº de Convidados (Acima dos 12 anos - Integrais) : ${integrais}<br>
+    Nº de Convidados (Dos 6 aos 11 anos de Idade - Meias) : ${meias}<br><br>
     Preço Por Convidado (Integral) : R$ ${totprecoconv1} 🕺<br>
     Preço Por Convidado (Meia) : R$ ${precomeia1} 🧒<br><br>
     Preço Total : R$ ${precototal1} 💸 `

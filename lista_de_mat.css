@@ -325,7 +325,7 @@ a{
     .resultado{
         /*espaçamento*/
         width: 50vh;
-        height: 80vh;
+        height: auto;
         font-size: 8pt
     }
 
@@ -389,7 +389,7 @@ a{
         /*espaçamento*/
         margin-right: 2.5vh;
         width: 100vh;
-        height: 120vh;
+        height: auto;
     }
 
     /*TABELA FINALIZADA*/
@@ -440,7 +440,7 @@ a{
         /*espaçamento*/
         margin-right: 2.5vh;
         width: 100vh;
-        height: 120vh;
+        height: auto;
     }
 
     /*TABELA FINALIZADA*/

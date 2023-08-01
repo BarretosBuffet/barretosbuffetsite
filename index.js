@@ -31,25 +31,25 @@ function execucao(){
     //Restrição do Churras Master
 
     if(texto === 'Churras Master' && totconv<30){
-        var precoconv = 140
+        var precoconv = 145
     }
     if(texto === 'Churras Master' && totconv>=30 && totconv<=49){
-        var precoconv = 120
+        var precoconv = 125
     }
     if(texto === 'Churras Master' && totconv>=50 && totconv<=69){
-        var precoconv = 115
+        var precoconv = 120
     }
     if(texto === 'Churras Master' && totconv>=70 && totconv<=89){
-        var precoconv = 110
+        var precoconv = 115
     }
     if(texto === 'Churras Master' && totconv>=90 && totconv<=109){
-        var precoconv = 105
+        var precoconv = 110
     }
     if(texto === 'Churras Master' && totconv>=110 && totconv<=129){
-        var precoconv = 102.5
+        var precoconv = 107.5
     }
     if(texto === 'Churras Master' && totconv>=130 && totconv<=150){
-        var precoconv = 100
+        var precoconv = 105
     }
 
     //Fim da Restrição do Churras Master
@@ -57,25 +57,25 @@ function execucao(){
     //Restrição do Churras Gold
 
     if(texto === 'Churras Gold' && totconv<30){
-        var precoconv = 120
+        var precoconv = 125
     }
     if(texto === 'Churras Gold' && totconv>=30 && totconv<=49){
-        var precoconv = 85
+        var precoconv = 90
     }
     if(texto === 'Churras Gold' && totconv>=50 && totconv<=69){
-        var precoconv = 80
+        var precoconv = 85
     }
     if(texto === 'Churras Gold' && totconv>=70 && totconv<=89){
-        var precoconv = 75
+        var precoconv = 80
     }
     if(texto === 'Churras Gold' && totconv>=90 && totconv<=109){
-        var precoconv = 70
+        var precoconv = 75
     }
     if(texto === 'Churras Gold' && totconv>=110 && totconv<=129){
-        var precoconv = 67.5
+        var precoconv = 72.5
     }
     if(texto === 'Churras Gold' && totconv>=130 && totconv<=150){
-        var precoconv = 65
+        var precoconv = 70
     }
 
     //Fim da Restrição do Churras Gold
@@ -84,25 +84,25 @@ function execucao(){
     //Restrições do Churras Silver
 
     if(texto === 'Churras Silver' && totconv<30){
-        var precoconv = 120
+        var precoconv = 125
     }
     if(texto === 'Churras Silver' && totconv>=30 && totconv<=49){
-        var precoconv = 80
+        var precoconv = 85
     }
     if(texto === 'Churras Silver' && totconv>=50 && totconv<=69){
-        var precoconv = 75
+        var precoconv = 80
     }
     if(texto === 'Churras Silver' && totconv>=70 && totconv<=89){
-        var precoconv = 70
+        var precoconv = 75
     }
     if(texto === 'Churras Silver' && totconv>=90 && totconv<=109){
-        var precoconv = 65
+        var precoconv = 70
     }
     if(texto === 'Churras Silver' && totconv>=110 && totconv<=129){
-        var precoconv = 62.5
+        var precoconv = 67.5
     }
     if(texto === 'Churras Silver' && totconv>=130 && totconv<=150){
-        var precoconv = 60
+        var precoconv = 65
     }
 
     //Fim da Restrição do Churras Silver

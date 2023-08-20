@@ -21,25 +21,25 @@ function execucao(){
     //Restrição do Churras Master
 
     if(texto === 'Churras Master' && totconv<30){
-        var precoconv = 195
+        var precoconv = 200
     }
     if(texto === 'Churras Master' && totconv>=30 && totconv<=50){
-        var precoconv = 120
+        var precoconv = 125
     }
     if(texto === 'Churras Master' && totconv>=51 && totconv<=70){
-        var precoconv = 115
+        var precoconv = 120
     }
     if(texto === 'Churras Master' && totconv>=71 && totconv<=90){
-        var precoconv = 110
+        var precoconv = 115
     }
     if(texto === 'Churras Master' && totconv>=91 && totconv<=110){
-        var precoconv = 105
+        var precoconv = 110
     }
     if(texto === 'Churras Master' && totconv>=111 && totconv<=130){
-        var precoconv = 102.5
+        var precoconv = 107.5
     }
     if(texto === 'Churras Master' && totconv>=131 && totconv<=150){
-        var precoconv = 100
+        var precoconv = 105
     }
 
     //Fim da Restrição do Churras Master
@@ -47,25 +47,25 @@ function execucao(){
     //Restrição do Churras Gold
 
     if(texto === 'Churras Gold' && totconv<30){
-        var precoconv = 150
+        var precoconv = 155
     }
     if(texto === 'Churras Gold' && totconv>=30 && totconv<=50){
-        var precoconv = 85
+        var precoconv = 90
     }
     if(texto === 'Churras Gold' && totconv>=51 && totconv<=70){
-        var precoconv = 80
+        var precoconv = 85
     }
     if(texto === 'Churras Gold' && totconv>=71 && totconv<=90){
-        var precoconv = 75
+        var precoconv = 80
     }
     if(texto === 'Churras Gold' && totconv>=91 && totconv<=110){
-        var precoconv = 70
+        var precoconv = 75
     }
     if(texto === 'Churras Gold' && totconv>=111 && totconv<=130){
-        var precoconv = 67.5
+        var precoconv = 72.5
     }
     if(texto === 'Churras Gold' && totconv>=131 && totconv<=150){
-        var precoconv = 65
+        var precoconv = 70
     }
 
     //Fim da Restrição do Churras Gold
@@ -77,22 +77,22 @@ function execucao(){
         var precoconv = 142.5
     }
     if(texto === 'Churras Silver' && totconv>=30 && totconv<=50){
-        var precoconv = 80
+        var precoconv = 85
     }
     if(texto === 'Churras Silver' && totconv>=51 && totconv<=70){
-        var precoconv = 75
+        var precoconv = 80
     }
     if(texto === 'Churras Silver' && totconv>=71 && totconv<=90){
-        var precoconv = 70
+        var precoconv = 75
     }
     if(texto === 'Churras Silver' && totconv>=91 && totconv<=110){
-        var precoconv = 65
+        var precoconv = 70
     }
     if(texto === 'Churras Silver' && totconv>=111 && totconv<=130){
-        var precoconv = 62.5
+        var precoconv = 67.5
     }
     if(texto === 'Churras Silver' && totconv>=131 && totconv<=150){
-        var precoconv = 60
+        var precoconv = 65
     }
 
     //Fim da Restrição do Churras Silver
@@ -104,22 +104,22 @@ function execucao(){
         var precoconv = 145.5
     }
     if(texto === 'Almoço/Jantar' && totconv>=30 && totconv<=50){
-        var precoconv = 82.5
+        var precoconv = 85
     }
     if(texto === 'Almoço/Jantar' && totconv>=51 && totconv<=70){
-        var precoconv = 77.5
+        var precoconv = 80
     }
     if(texto === 'Almoço/Jantar' && totconv>=71 && totconv<=90){
-        var precoconv = 72.5
+        var precoconv = 75
     }
     if(texto === 'Almoço/Jantar' && totconv>=91 && totconv<=110){
-        var precoconv = 67.5
+        var precoconv = 70
     }
     if(texto === 'Almoço/Jantar' && totconv>=111 && totconv<=130){
-        var precoconv = 65
+        var precoconv = 67.5
     }
     if(texto === 'Almoço/Jantar' && totconv>=131 && totconv<=150){
-        var precoconv = 62.5
+        var precoconv = 65
     }
 
     //Fim da Restrição Almoço/Jantar

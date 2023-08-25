@@ -211,7 +211,7 @@ function execucao(){
     var select = document.querySelector('#cervejas');
     var option = select.children[select.selectedIndex];
     var cerva = option.textContent;
-    if( cerva=== '-'){
+    if( cerva=== 'Sem Cerveja'){
         var precocerva = 0
     }
     if( cerva=== 'Brahma + Antarctica'){
@@ -250,7 +250,7 @@ function execucao(){
     var select = document.querySelector('#open-bar');
     var option = select.children[select.selectedIndex];
     var openbar = option.textContent;
-    if( openbar=== "-"){
+    if( openbar=== "Sem Open-Bar"){
         var precoopen = 0
     }
     if( openbar=== "Open-Bar I"){

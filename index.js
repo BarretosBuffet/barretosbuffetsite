@@ -24,7 +24,7 @@ function execucao(){
     var mei = document.querySelector('#convmeia')
     var int = document.querySelector('#convint')
     var integrais = Number(int.value)
-    var meias = Number(mei.value)
+    var meias = Number(mei.value/2)
     var totconv = integrais + meias
 
 

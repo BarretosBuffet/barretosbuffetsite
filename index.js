@@ -24,8 +24,9 @@ function execucao(){
     var mei = document.querySelector('#convmeia')
     var int = document.querySelector('#convint')
     var integrais = Number(int.value)
-    var meias = Number(mei.value/2)
-    var totconv = integrais + meias
+    var meias = Number(mei.value)
+    var precomeia = Number(mei.value/2)    
+    var totconv = integrais + precomeia
 
 
     //Restrição do Churras Master

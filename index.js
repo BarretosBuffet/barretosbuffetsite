@@ -140,25 +140,25 @@ function execucao(){
     //Restrições do Feijoada
 
     if(texto === 'Feijoada' && totconv<30){
-        var precoconv = 120
+        var precoconv = 125
     }
     if(texto === 'Feijoada' && totconv>=30 && totconv<=49){
-        var precoconv = 82.5
+        var precoconv = 85
     }
     if(texto === 'Feijoada' && totconv>=50 && totconv<=69){
-        var precoconv = 77.5
+        var precoconv = 80
     }
     if(texto === 'Feijoada' && totconv>=70 && totconv<=89){
-        var precoconv = 72.5
+        var precoconv = 75
     }
     if(texto === 'Feijoada' && totconv>=90 && totconv<=109){
-        var precoconv = 67.5
+        var precoconv = 70
     }
     if(texto === 'Feijoada' && totconv>=110 && totconv<=129){
-        var precoconv = 65
+        var precoconv = 67.5
     }
     if(texto === 'Feijoada' && totconv>=130 && totconv<=150){
-        var precoconv = 62.5
+        var precoconv = 65
     }
     
     //Fim das Restrições de Feijoada
